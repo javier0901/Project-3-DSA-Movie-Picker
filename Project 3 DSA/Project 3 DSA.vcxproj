@@ -26,6 +26,9 @@
     <ClInclude Include="cApp.h" />
     <ClInclude Include="cMain.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\movies_metadata.csv" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{8499E87F-4BAF-4527-AD6C-4FC5D24B1C58}</ProjectGuid>

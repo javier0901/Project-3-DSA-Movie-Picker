@@ -1,5 +1,12 @@
 #pragma once
 #include "wx/wx.h"
+#include <vector>
+#include <map>
+#include <fstream>
+#include <iostream>
+#include <string>
+
+using namespace std;
 
 class cMain : public wxFrame
 {
@@ -14,7 +21,13 @@ public:
 	wxStaticText* genres = nullptr;
 	wxStaticText* instructions = nullptr;
 
+	map<string, string> movies;
+
 	void OnButtonClicked(wxCommandEvent& evt);
+	void initMap();
+
+
+
 
 	wxDECLARE_EVENT_TABLE();
 };
